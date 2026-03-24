@@ -14,7 +14,7 @@
         "Login": "登录",
         "Show password": "显示密码",
         "Login in progress...": "登录中...",
-        "Authentication in progress... ": "认证进行中……",
+        "Authentication in progress...": "认证进行中……",
             
         // ====================
         // 通用/导航菜单
