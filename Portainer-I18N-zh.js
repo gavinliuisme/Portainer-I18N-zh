@@ -251,6 +251,19 @@
         "to manage teams.": "管理团队。",
         "You must specify at least one team or user.": "您必须至少指定一个团队或用户。",
         "You currently have unsaved changes in the text editor. Are you sure you want to leave?": "您在文本编辑器中有未保存的更改。确定要离开吗？",
+        "Update custom template": "更新自定义模板"，
+        "User management": "用户管理",
+        "Users table": "用户表格",
+        "Select all rows. Hold shift key to select across all pages.": "选择所有行。按住 Shift 键可跨页选择。",
+        "Select all rows": "选择所有行",
+        "Sort column": "排序列",
+        "Role": "角色",
+        "Select row": "选择行",
+        "administrator": "管理员",
+        "Passwords must match": "密码必须匹配",
+        "Add a new user": "添加新用户",
+        "Add to team(s)": "添加到团队",
+        "You don't seem to have any teams to add users into. Head over to the": "您似乎没有任何团队可供添加用户。请前往",
 
         // ====================
         // 容器管理
