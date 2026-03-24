@@ -12,7 +12,7 @@
         "Enter your username": "输入用户名",
         "Enter your password": "输入密码",
         "Login": "登录",
-        "Login in progress...": "登录中..."
+        "Login in progress...": "登录中...",
             
         // ====================
         // 通用/导航菜单
