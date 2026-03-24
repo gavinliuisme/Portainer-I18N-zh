@@ -5,7 +5,7 @@
         // ====================
         // 登录模块
         // ====================
-        "Portainer": "Portainer",
+        "Portainer": "Portainer 容器管理平台",
         "Log in to your account": "登录您的账户",
         "Welcome back! Please enter your details": "欢迎回来！请输入您的详细信息",
         "Authentication in progress... ": "认证中...",
@@ -13,6 +13,7 @@
         "Enter your password": "输入密码",
         "Login": "登录",
         "Login in progress...": "登录中...",
+        "Authentication in progress... ": "认证进行中……",
             
         // ====================
         // 通用/导航菜单
