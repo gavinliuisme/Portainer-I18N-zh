@@ -12,6 +12,7 @@
         "Enter your username": "输入用户名",
         "Enter your password": "输入密码",
         "Login": "登录",
+        "Show password": "显示密码",
         "Login in progress...": "登录中...",
         "Authentication in progress... ": "认证进行中……",
             
