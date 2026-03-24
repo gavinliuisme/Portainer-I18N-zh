@@ -251,7 +251,7 @@
         "to manage teams.": "管理团队。",
         "You must specify at least one team or user.": "您必须至少指定一个团队或用户。",
         "You currently have unsaved changes in the text editor. Are you sure you want to leave?": "您在文本编辑器中有未保存的更改。确定要离开吗？",
-        "Update custom template": "更新自定义模板"，
+        "Update custom template": "更新自定义模板",
         "User management": "用户管理",
         "Users table": "用户表格",
         "Select all rows. Hold shift key to select across all pages.": "选择所有行。按住 Shift 键可跨页选择。",
