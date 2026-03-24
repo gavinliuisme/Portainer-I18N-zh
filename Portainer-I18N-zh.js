@@ -68,7 +68,7 @@
         "Container successfully restarted": "容器重启成功",
         "View all notifications": "查看所有通知",
         "Last snapshot time": "上次快照时间",
-        "Group: ": "分组：",
+        "Group:": "分组：",
         "Live connect": "实时连接",
         "Disconnected": "已断开连接",
         "User Menu": "用户菜单",
