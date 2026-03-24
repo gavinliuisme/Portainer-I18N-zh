@@ -225,6 +225,10 @@
         "Category filter": "类别筛选",
         "Categories": "类别",
         "Copy as Custom": "复制为自定义",
+        "Compose Stack": "Compose 堆栈",
+        "Remove Compose Stack": "移除 Compose 堆栈",
+        "Type filter": "类型筛选",
+        "stack": "堆栈",
 
         // ====================
         // 容器管理
