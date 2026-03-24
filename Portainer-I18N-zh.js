@@ -250,6 +250,7 @@
         "Teams view": "团队视图",
         "to manage teams.": "管理团队。",
         "You must specify at least one team or user.": "您必须至少指定一个团队或用户。",
+        "You currently have unsaved changes in the text editor. Are you sure you want to leave?": "您在文本编辑器中有未保存的更改。确定要离开吗？",
 
         // ====================
         // 容器管理
@@ -860,6 +861,7 @@
         "Copy": "复制",
         "Save": "保存",
         "Cancel": "取消",
+        "Yes": "确定",
         "Go back": "返回",
         
         // ====================
