@@ -128,6 +128,10 @@
         "healthy": "健康",
         "unhealthy": "不健康",
         "No Kubernetes environments detected": "未检测到 Kubernetes 环境",
+        "Podman": "Podman",
+        "'Host overview'": "'主机概览'",
+        "Clear environment": "清除环境",
+        "Collapse": "折叠",
 
         // ====================
         // 仪表盘
