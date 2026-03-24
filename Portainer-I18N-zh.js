@@ -48,7 +48,31 @@
         "User-related": "用户相关",
         "Environment-related": "环境相关",
         "Activity": "活动",
-        
+        "Refresh page": "刷新页面",
+        "Notifications menu toggle": "切换通知菜单",
+        "User menu toggle": "切换用户菜单",
+        "to add an environment.": "以添加环境",
+        "Search input": "搜索框",
+        "Main": "主要内容",
+        "Logo": "标志",
+        "Toggle Sidebar": "切换侧边栏",
+        "Expand": "展开",
+
+        // ====================
+        // 系统信息与通知
+        // ====================
+        "About Portainer": "关于 Portainer",
+        "Clear all": "全部清除",
+        "Notifications Menu": "通知菜单",
+        "docker environment": "Docker 环境",
+        "Container successfully restarted": "容器重启成功",
+        "View all notifications": "查看所有通知",
+        "Last snapshot time": "上次快照时间",
+        "Group: ": "分组：",
+        "Live connect": "实时连接",
+        "Disconnected": "已断开连接",
+        "User Menu": "用户菜单",
+            
         // ====================
         // 首页与环境
         // ====================
