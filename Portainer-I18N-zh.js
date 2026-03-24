@@ -220,6 +220,9 @@
         "Title is required.": "标题必填。",
         "Description is required.": "描述必填。",
         "Template is required.": "模板必填。",
+        // ====================
+        // 堆栈与筛选
+        // ====================
         "Templates": "模板",
         "Category": "类别",
         "Category filter": "类别筛选",
@@ -229,6 +232,24 @@
         "Remove Compose Stack": "移除 Compose 堆栈",
         "Type filter": "类型筛选",
         "stack": "堆栈",
+        // ====================
+        // 表单验证与部署
+        // ====================
+        "Name is required": "名称为必填项",
+        "Deploy the stack": "部署堆栈",
+
+        // ====================
+        // 权限管理提示
+        // ====================
+        "Authorized users": "授权用户",
+        "You have not yet created any users. Head over to the": "您尚未创建任何用户。请前往",
+        "Users view": "用户视图",
+        "to manage users.": "管理用户。",
+        "Authorized teams": "授权团队",
+        "You have not yet created any teams. Head over to the": "您尚未创建任何团队。请前往",
+        "Teams view": "团队视图",
+        "to manage teams.": "管理团队。",
+        "You must specify at least one team or user.": "您必须至少指定一个团队或用户。",
 
         // ====================
         // 容器管理
