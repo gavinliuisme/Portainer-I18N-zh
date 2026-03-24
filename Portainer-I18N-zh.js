@@ -221,6 +221,10 @@
         "Description is required.": "描述必填。",
         "Template is required.": "模板必填。",
         "Templates": "模板",
+        "Category": "类别",
+        "Category filter": "类别筛选",
+        "Categories": "类别",
+        "Copy as Custom": "复制为自定义",
 
         // ====================
         // 容器管理
