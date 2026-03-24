@@ -132,6 +132,7 @@
         "'Host overview'": "'主机概览'",
         "Clear environment": "清除环境",
         "Collapse": "折叠",
+        "resourceType": "资源类型",
 
         // ====================
         // 仪表盘
