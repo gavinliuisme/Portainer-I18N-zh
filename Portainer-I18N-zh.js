@@ -119,7 +119,6 @@
       "No tags": "无标签",
       "Snapshots": "快照",
       "Actions": "操作",
-      "Disconnect": "断开连接",
       "local": "本地",
       "Environment summary": "环境摘要",
       "Environment info": "环境信息",
@@ -232,6 +231,91 @@
       "Remove Compose Stack": "移除 Compose 堆栈",
       "Type filter": "类型筛选",
       "stack": "堆栈",
+    "Refresh rate": "刷新频率",
+    "Compose": "Compose",
+    "Stacks table": "堆栈表格",
+    "Columns": "列",
+    "'Stacks list'": "'堆栈列表'",
+    "selected": "已选择",
+    "Do you want to remove the selected stack(s)? Associated services will be removed as well.": "您想要移除选中的堆栈吗？关联的服务也将被移除。",
+
+    "Containers table": "容器表格",
+    "Stack name (optional for migration)": "堆栈名称（迁移时可选）",
+    "Code Editor": "代码编辑器",
+    "Unfold line": "展开行",
+    "Fold line": "折叠行",
+    "ownership-icon": "归属图标",
+    "ownership": "归属",
+    "Update Ownership": "更新归属",
+    "I want any user with access to this environment to be able to manage this resource": "我希望任何有权访问此环境的用户都能够管理此资源",
+    "extra-options": "额外选项",
+    "This resource can only be managed by administrators.": "此资源只能由管理员管理。",
+    "option local, selected.": "选项 local，已选中。",
+
+
+        "Are you sure you want to stop this stack?": "确定要停止此堆栈吗？",
+        "Do you want to remove the stack? Associated services will be removed as well": "您想要移除该堆栈吗？关联的服务也将被移除",
+        "Prune services that are no longer referenced.": "清理不再被引用的服务。",
+        "Create a webhook (or callback URI) to automate the update of this stack. Sending a POST request to this callback URI (without requiring any authentication) will pull the most up-to-date version of the associated image and re-deploy this stack.": "创建一个 Webhook（或回调 URI）以自动化更新此堆栈。向此回调 URI 发送 POST 请求（无需任何认证）将拉取关联镜像的最新版本并重新部署此堆栈。",
+        "When enabled, you can restrict the access and management of this resource.": "启用后，您可以限制对此资源的访问和管理。",
+        "Enabling this will allow skipping TLS validation for any self-signed certificate.": "启用此选项将允许跳过任何自签名证书的 TLS 验证。",
+        "Ctrl+F - Start searching": "Ctrl+F - 开始搜索",
+        "Ctrl+G - Find next": "Ctrl+G - 查找下一个",
+        "Ctrl+Shift+G - Find previous": "Ctrl+Shift+G - 查找上一个",
+        "Ctrl+Shift+F - Replace": "Ctrl+Shift+F - 替换",
+        "Ctrl+Shift+R - Replace all": "Ctrl+Shift+R - 全部替换",
+        "Alt+G - Jump to line": "Alt+G - 跳转到行",
+        "Persistent search:": "持久搜索：",
+        "Enter - Find next": "Enter - 查找下一个",
+        "Shift+Enter - Find previous": "Shift+Enter - 查找上一个",
+        "refreshGitRepo": "刷新 Git 仓库",
+        ", the stack.env file must already reside in the Git repo.": "，stack.env 文件必须已存在于 Git 仓库中。",
+        "Custom template deployment": "自定义模板部署",
+        ", the stack.env file is auto created from what you set below.": "，stack.env 文件将根据您在下方的设置自动创建。",
+        "Switch to advanced mode to copy & paste multiple variables": "切换到高级模式以复制粘贴多个变量",
+        "environment variables list": "环境变量列表",
+        "Add an environment variable": "添加环境变量",
+        "Load variables from .env file": "从 .env 文件加载变量",
+        "Stack name is required": "堆栈名称为必填项",
+        "Stack file content is required": "堆栈文件内容为必填项",
+        "Stack file is required": "堆栈文件为必填项",
+        "Switch to simple mode to define variables line by line, or load from .env file": "切换到简单模式以逐行定义变量，或从 .env 文件加载",
+        "value": "值",
+        "Environment variable name is required": "环境变量名称为必填项",
+        "To enable rebuilding of an image if already present on Docker standalone environments, include": "要在 Docker 独立环境中启用重建已存在的镜像，请包含",
+        "Docker documentation": "Docker 文档",
+        "Additional paths": "附加路径",
+        "Add file": "添加文件",
+
+        "GitOps updates": "GitOps 更新",
+        "Meet ‘GitOps updates’ : Formerly known as Automatic updates": "遇见“GitOps 更新”：前身为自动更新",
+        "We've renamed \"Automatic updates\" to better align with industry terminology and clarify its purpose for all users. Originally chosen during the early emergence of GitOps, the name has changed, but the functionality remains unchanged. GitOps has rapidly emerged as a revolutionary approach to managing infrastructure and application changes, and we want to ensure our platform reflects the latest advancements in the industry.": "我们已将“自动更新”重命名，以更好地与行业术语保持一致，并向所有用户明确其用途。该名称最初是在 GitOps 早期涌现时选定的，虽然名称已更改，但功能保持不变。GitOps 已迅速崛起为一种管理基础设施和应用程序变更的革命性方法，我们要确保平台能反映行业的最新进展。",
+        "path": "路径",
+        "Path is required": "路径为必填项",
+        "When enabled, at each polling interval or webhook invocation, if the git repo differs from what was stored locally on the last git pull, the changes are deployed.": "启用后，在每个轮询间隔或 Webhook 调用时，如果 Git 仓库与上次 Git 拉取时本地存储的内容不同，则会部署更改。",
+        "Any changes to this stack or application that have been made locally via Portainer or directly in the cluster will be overwritten by the git repository content, which may cause service interruption.": "通过 Portainer 在本地或直接在集群中对此堆栈或应用程序所做的任何更改，都将被 Git 仓库内容覆盖，这可能会导致服务中断。",
+        "Mechanism": "机制",
+        "Polling": "轮询",
+        "Fetch interval": "获取间隔",
+        "Force redeployment": "强制重新部署",
+        "Specify how frequently polling occurs using syntax such as, 5m = 5 minutes, 24h = 24 hours, 6h40m = 6 hours and 40 minutes.": "指定轮询发生的频率，使用如下语法：5m = 5 分钟，24h = 24 小时，6h40m = 6 小时 40 分钟。",
+        "If enabled, then when redeploy is triggered via the webhook or polling, the stack will be always redeployed, even if Portainer detects no difference between the git repo and what was stored locally on last git pull.": "如果启用，则当通过 Webhook 或轮询触发重新部署时，即使 Portainer 检测到 Git 仓库与上次 Git 拉取时本地存储的内容没有差异，也会始终重新部署堆栈。",
+
+        "Select a custom template": "选择自定义模板",
+        "Template is required": "模板为必填项",
+        "Select a custom template to deploy as a stack": "选择一个自定义模板以部署为堆栈",
+        "in your compose file as per": "在您的 compose 文件中，依据",
+        "Enabling authentication will store the credentials and it is advisable to use a git service account": "启用身份验证将存储凭据，建议使用 Git 服务账户",
+        "git username": "Git 用户名",
+        "Username is required": "用户名为必填项",
+        "Personal Access Token is required": "个人访问令牌为必填项",
+        "Copy link": "复制链接",
+
+        // ====================
+        // 更新机制说明
+        // ====================
+        "If enabled, then when redeploy is triggered via the webhook or polling, if there's a newer image with the tag that you've specified (e.g. changeable development builds), it's pulled and redeployed. If you haven't specified a tag, or have specified 'latest' as the tag, then the image with the tag 'latest' is pulled and redeployed.": "如果启用，则当通过 Webhook 或轮询触发重新部署时，如果您指定的标签有更新的镜像（例如可变的开发构建），则会拉取并重新部署该镜像。如果您未指定标签，或指定了 'latest' 作为标签，则会拉取并重新部署标签为 'latest' 的镜像。",
+
       // ====================
       // 表单验证与部署
       // ====================
@@ -419,7 +503,211 @@
       "Select a network": "选择网络",
       "Join Network": "加入网络",
       "Leave network": "离开网络",
-      
+
+        "Exec Console": "执行控制台",
+        "Attach Console": "连接控制台",
+        "You are about to remove one or more running containers.": "您即将移除一个或多个正在运行的容器。",
+        "Automatically remove non-persistent volumes": "自动移除非持久化卷",
+        "Edit container name": "编辑容器名称",
+        "for": " ",
+        "inheritance-message": "继承消息",
+        "Search image on Docker Hub": "在 Docker Hub 上搜索镜像",
+        "Cancel Container name edit": "取消容器名称编辑",
+        "Rename": "重命名",
+        "Rename container": "重命名容器",
+        "Access control applied on a stack is also applied on each resource in the stack.": "应用于堆栈的访问控制也将应用于堆栈中的每个资源。",
+        "must be": "必须",
+        "publicly available.": "公开可用。",
+        "Connected Networks table": "已连接网络表格",
+        "Webhook (or callback URI) used to automate the recreation of this container. Sending a POST request to this callback URI (without requiring any authentication) will pull the most up-to-date version of the associated image and recreate this container.": "用于自动化重建此容器的 Webhook（或回调 URI）。向此回调 URI 发送 POST 请求（无需任何认证）将拉取关联镜像的最新版本并重建此容器。",
+
+        // ====================
+        // 容器详情与日志
+        // ====================
+        "Container inspect": "容器检查",
+        "'Container logs'": "'容器日志'",
+        "Log viewer settings": "日志查看器设置",
+        "Auto-refresh logs": "自动刷新日志",
+        "Wrap lines": "自动换行",
+        "Display timestamps": "显示时间戳",
+        "Fetch": "获取",
+        "All logs": "所有日志",
+        "Last day": "最近一天",
+        "Last 4 hours": "最近 4 小时",
+        "Last hour": "最近 1 小时",
+        "Last 10 minutes": "最近 10 分钟",
+        "Filter...": "过滤...",
+        "Lines": "行数",
+        "Enter no of lines...": "输入行数...",
+        "Download logs": "下载日志",
+        "Copy selected lines": "复制选中行",
+        "Unselect": "取消选择",
+
+        // ====================
+        // 容器统计
+        // ====================
+        "'Container statistics'": "'容器统计'",
+        "Container statistics": "容器统计",
+        "This view displays real-time statistics about the container": "此视图显示关于容器的实时统计信息 ",
+        "as well as a list of the running processes inside this\n                container.": "以及此容器内正在运行的进程列表。",
+        "Processes": "进程",
+        "Processes table": "进程表格",
+        "Network usage (aggregate)": "网络使用（聚合）",
+
+        // ====================
+        // 容器控制台
+        // ====================
+        "'Container console'": "'容器控制台'",
+        "Format is one of: user, user:group, uid or uid:gid": "格式为以下之一：user, user:group, uid 或 uid:gid",
+        "Exec into container as": "Exec 进入容器为 ",
+        "using command": "使用命令",
+        "Connecting...": "连接中...",
+        "Terminal input": "终端输入",
+        "Within the console:": "在控制台内：",
+        "Ctrl+Insert - Copy": "Ctrl+Insert - 复制",
+        "Shift+Insert - Paste": "Shift+Insert - 粘贴",
+        "or right-click -> Copy/Paste": "或右键点击 -> 复制/粘贴",
+        "Use custom command": "使用自定义命令",
+        "The container is not running.": "容器未运行。",
+        "Attach to Container": "连接到容器",
+        "Detach": "分离",
+        "Attaching...": "连接中...",
+
+        "Tree": "树形",
+        "Text": "文本",
+        "collapse JSON": "折叠 JSON",
+
+        // ====================
+        // 容器统计与控制台
+        // ====================
+        "The interactive-flag is not set. You might not be able to use the console properly.": "未设置交互式标志。您可能无法正常使用控制台。",
+        "The TTY-flag is not set. You might not be able to use the console properly.": "未设置 TTY 标志。您可能无法正常使用控制台。",
+
+        // ====================
+        // 日志与高级模式设置
+        // ====================
+        "Disabling this option allows you to pause the log collection process and the auto-scrolling.": "禁用此选项允许您暂停日志收集过程和自动滚动。",
+        "When using advanced mode, image and repository": "当使用高级模式时，镜像和仓库 ",
+        "When enabled, Portainer will automatically try to pull the specified image before creating the container.": "启用后，Portainer 将在创建容器之前自动尝试拉取指定的镜像。",
+        "Create a webhook (or callback URI) to automate the recreate this container. Sending a POST request to this callback URI (without requiring any authentication) will pull the most up-to-date version of the associated image and recreate this container.": "创建一个 Webhook（或回调 URI）以自动化重建此容器。向此回调 URI 发送 POST 请求（无需任何身份验证）将拉取关联镜像的最新版本并重建此容器。",
+
+        // ====================
+        // 端口映射与容器设置
+        // ====================
+        "When enabled, Portainer will let Docker automatically map a random port on the host to each one defined in the image Dockerfile.": "启用后，Portainer 将让 Docker 自动将主机上的随机端口映射到镜像 Dockerfile 中定义的每个端口。",
+        "When a range of ports on the host and a single port on the container is specified, Docker will randomly choose a single available port in the defined range and forward that to the container port.": "当指定了主机上的端口范围和容器上的单个端口时，Docker 将在定义的范围内随机选择一个可用端口，并将其转发到容器端口。",
+        "container is required": "容器为必填项",
+        "When enabled, Portainer will automatically remove the container when it exits. This is useful when you want to use the container only once.": "启用后，Portainer 将在容器退出时自动移除该容器。当您只想使用容器一次时，这很有用。",
+        "option": "选项",
+
+        // ====================
+        // 卷映射与网络设置
+        // ====================
+        "Volume mapping": "卷映射",
+        "map additional volume": "映射额外卷",
+        "Domain Name": "域名",
+        "Primary DNS Server": "主 DNS 服务器",
+        "Secondary DNS Server": "辅助 DNS 服务器",
+        "These values will be applied to the container when deployed": "这些值将在部署时应用于容器",
+        "Restart Policy": "重启策略",
+        "Add device": "添加设备",
+        "Add sysctl": "添加 sysctl",
+        "Shared memory size": "共享内存大小",
+        "Size of /dev/shm (": "/dev/shm 大小（",
+
+        // ====================
+        // GPU 与资源限制
+        // ====================
+        "GPU support is currently limited to NVIDIA graphics cards only.": "GPU 支持目前仅限于 NVIDIA 显卡。",
+        "GPU in the UI is not currently enabled for this environment.": "此环境的 UI 中当前未启用 GPU。",
+        "Enable GPU": "启用 GPU",
+        "Resources": "资源",
+        "Memory reservation (MB)": "内存预留 (MB)",
+        "unlimited": "无限制",
+        "Memory limit (MB)": "内存限制 (MB)",
+        "Maximum CPU usage": "最大 CPU 使用率",
+        "Update Limits": "更新限制",
+
+        // ====================
+        // 容器能力
+        // ====================
+        "Container capabilities": "容器能力",
+
+        // Capabilities 描述翻译
+        "Enable and disable kernel auditing; change auditing filter rules; retrieve auditing status and filtering rules.": "启用和禁用内核审计；更改审计过滤规则；检索审计状态和过滤规则。",
+        "Make arbitrary changes to file UIDs and GIDs (see chown(2)).": "任意更改文件的 UID 和 GID（参见 chown(2)）。",
+        "Bypass permission checks for operations on System V IPC objects.": "绕过对 System V IPC 对象操作的权限检查。",
+        "Bypass permission checks on operations that normally require the file system UID of the process to match the UID of the file.": "绕过通常要求进程的文件系统 UID 与文件 UID 匹配的操作的权限检查。",
+        "Set the FS_APPEND_FL and FS_IMMUTABLE_FL i-node flags.": "设置 FS_APPEND_FL 和 FS_IMMUTABLE_FL i-node 标志。",
+        "Create special files using mknod(2).": "使用 mknod(2) 创建特殊文件。",
+        "Make socket broadcasts, and listen to multicasts.": "进行套接字广播并监听多播。",
+        "Make arbitrary manipulations of process GIDs and supplementary GID list.": "任意操作进程 GID 和补充 GID 列表。",
+        "Perform privileged syslog(2) operations.": "执行特权 syslog(2) 操作。",
+        "Use chroot(2), change root directory.": "使用 chroot(2)，更改根目录。",
+        "Use acct(2), switch process accounting on or off.": "使用 acct(2)，开启或关闭进程记账。",
+        "Override resource Limits.": "覆盖资源限制。",
+        "Trigger something that will wake up the system.": "触发唤醒系统的操作。",
+        "Write records to kernel auditing log.": "将记录写入内核审计日志。",
+        "Bypass file read, write, and execute permission checks.": "绕过文件读取、写入和执行权限检查。",
+        "Don’t clear set-user-ID and set-group-ID permission bits when a file is modified.": "当文件被修改时，不清除 set-user-ID 和 set-group-ID 权限位。",
+        "Bypass permission checks for sending signals.": "绕过发送信号的权限检查。",
+        "Allow MAC configuration or state changes. Implemented for the Smack LSM.": "允许 MAC 配置或状态更改。为 Smack LSM 实现。",
+        "Perform various network-related operations.": "执行各种网络相关操作。",
+        "Use RAW and PACKET sockets.": "使用 RAW 和 PACKET 套接字。",
+        "Modify process capabilities.": "修改进程能力。",
+        "Perform a range of system administration operations.": "执行一系列系统管理操作。",
+        "Load and unload kernel modules.": "加载和卸载内核模块。",
+        "Trace arbitrary processes using ptrace(2).": "使用 ptrace(2) 跟踪任意进程。",
+        "Set system clock (settimeofday(2), stime(2), adjtimex(2)); set real-time (hardware) clock.": "设置系统时钟（settimeofday(2)、stime(2)、adjtimex(2)）；设置实时（硬件）时钟。",
+        "Use vhangup(2); employ various privileged ioctl(2) operations on virtual terminals.": "使用 vhangup(2)；在虚拟终端上执行各种特权 ioctl(2) 操作。",
+        "Perform I/O port operations (iopl(2) and ioperm(2)).": "执行 I/O 端口操作（iopl(2) 和 ioperm(2)）。",
+        "Raise process nice value (nice(2), setpriority(2)) and change the nice value for arbitrary processes.": "提高进程 nice 值（nice(2)、setpriority(2)）并更改任意进程的 nice 值。",
+        "Use reboot(2) and kexec_load(2), reboot and load a new kernel for later execution.": "使用 reboot(2) 和 kexec_load(2)，重新启动并加载新内核以便稍后执行。",
+        "Make arbitrary manipulations of process UIDs.": "任意操作进程 UID。",
+        "Set file capabilities.": "设置文件能力。",
+        "Bind a socket to internet domain privileged ports (port numbers less than 1024).": "将套接字绑定到 Internet 域特权端口（端口号小于 1024）。",
+        "Override Mandatory Access Control (MAC). Implemented for the Smack Linux Security Module (LSM).": "覆盖强制访问控制 (MAC)。为 Smack Linux 安全模块 (LSM) 实现。",
+        "Establish leases on arbitrary files (see fcntl(2)).": "在任意文件上建立租约（参见 fcntl(2)）。",
+        "Lock memory (mlock(2), mlockall(2), mmap(2), shmctl(2)).": "锁定内存（mlock(2)、mlockall(2)、mmap(2)、shmctl(2)）。",
+        "Bypass file read permission checks and directory read and execute permission checks.": "绕过文件读取权限检查以及目录读取和执行权限检查。",
+        "Employ features that can block system suspend.": "使用可以阻止系统挂起的特性。",      
+        "e.g bar": "例如 bar",
+        "Volume type": "卷类型",
+        "Bind": "绑定",
+        "volume": "卷",
+        "Select a volume": "选择卷",
+        "ReadWrite": "读写",
+        "Container path is required": "容器路径为必填项",
+        // ====================
+        // 镜像管理
+        // ====================
+        "Images table": "镜像表格",
+        "Select...": "选择...",
+        "Removing an image will also delete all associated tags. Are you sure you want to remove the selected image(s)?": "移除镜像也会删除所有关联的标签。确定要移除选中的镜像吗？",
+        "Remove the image": "移除镜像",
+        "'Image details'": "'镜像详情'",
+        "Tag the image": "给镜像打标签",
+        "Image details": "镜像详情",
+        "Delete this image": "删除此镜像",
+        "Export this image": "导出此镜像",
+        "Export in progress...": "正在导出...",
+        "Build": "构建",
+        "Push to registry": "推送到仓库",
+        "Pull from registry": "从仓库拉取",
+        "Note: you can click on the upload icon": "注意：您可以点击上传图标",
+        "to push an image or on the download icon": "以推送镜像，或点击下载图标",
+        "to pull an\n                image or on the trash icon": "以拉取\n                镜像，或点击垃圾箱图标",
+        "to delete a tag.": "以删除标签。",
+        "Download in progress...": "正在下载...",
+        "Image tags": "镜像标签",
+        "Upload in progress...": "正在上传...",
+        "Dockerfile details": "Dockerfile 详情",
+        "Image layers": "镜像层",
+        "Order": "顺序",
+        "Layer": "层",
+        "Image name is required.": "镜像名称为必填项。",
+
+
       // ====================
       // 容器状态
       // ====================
@@ -517,7 +805,6 @@
       // ====================
       // 网络
       // ====================
-      "Network": "网络",
       "Network details": "网络详情",
       "Network ID": "网络 ID",
       "Subnet": "子网",
@@ -958,6 +1245,12 @@
       [/(\d+\.?\d*) MB/, "$1 MB"],
       [/(\d+\.?\d*) kB/, "$1 kB"],
 
-      [/e.g. (.+\.?.*)/, "例如 $1"],
+      [/^(\d+\.?\d*) days/, "$1 天"],
+      [/^(\d+\.?\d*) item(s*)/, "$1 项"],
+
+      [/^(\d+\.?\d*)s/, "$1秒"],
+      [/^(\d+\.?\d*)min/, "$1分"],
+
+      [/^e.g. (.+\.?.*)/, "例如 $1"],
       
   ];
