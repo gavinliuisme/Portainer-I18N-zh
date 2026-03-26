@@ -1205,7 +1205,161 @@
       "Local": "本地",
       "Loading...": "加载中...",
       "abc def ghi jkl mno pqr stu": "示例文本 abc def...",
-      "administrators":"超级管理员"
+      "administrators":"超级管理员",
+      
+        "Container successfully resumed": "容器已成功恢复",
+        "Container successfully paused": "容器已成功暂停",            
+        "You can upload a Dockerfile or a tar archive containing a Dockerfile from your computer. When using a tarball, the root folder will be used as the build\n                    context.": "您可以从计算机上传 Dockerfile 或包含 Dockerfile 的 tar 归档文件。使用 tar 包时，根文件夹将用作构建上下文。",
+        "). When using a Git repository URL, build contexts can be\n                      specified as in the": "). 当使用 Git 仓库 URL 时，构建上下文可以如",
+        "You must specify at least one name for the image.": "您必须为镜像指定至少一个名称。",
+        "'Network list'": "'网络列表'",
+        "Networks table": "网络表格",
+        "Do you want to remove the selected network(s)?": "您想要移除选中的网络吗？",            
+        "'Create network'": "'创建网络'",
+        "Macvlan configuration": "Macvlan 配置",
+        "To create a MACVLAN network you need to create a configuration, then create the network from this configuration.": "要创建 MACVLAN 网络，您需要先创建一个配置，然后根据此配置创建网络。",
+        "Parent network card": "父网卡",
+        "Parent network card must be specified.": "必须指定父网卡。",
+        "Exclude IP": "排除 IP",
+        "Exclude ip cannot be the same as gateway.": "排除 IP 不能与网关相同。",
+        "An isolated network has no inbound or outbound communications.": "隔离网络没有入站或出站通信。",
+        "Driver options are specific to the selected driver. Please refer to the selected driver documentation.": "驱动程序选项特定于所选驱动程序。请参考所选驱动程序的文档。",
+        "'Volume list'": "'卷列表'",
+        "Volumes table": "卷表格",
+        "Do you want to remove the selected volume(s)?": "您想要移除选中的卷吗？",
+        "'Volume details'": "'卷详情'",
+        "'Create volume'": "'创建卷'",
+        "NFS Settings": "NFS 设置",
+        "Address": "地址",
+        "NFS Version": "NFS 版本",
+        "CIFS Settings": "CIFS 设置",
+        "Share": "共享",
+        "CIFS Version": "CIFS 版本",
+        "CIFS v1.0 (Used by Windows XP / Server 2003 and earlier)": "CIFS v1.0（由 Windows XP / Server 2003 及更早版本使用）",
+        "CIFS v2.0 (Used by Windows Vista / Server 2008)": "CIFS v2.0（由 Windows Vista / Server 2008 使用）",
+        "CIFS v2.1 (Used by Windows 7 / Server 2008 R2)": "CIFS v2.1（由 Windows 7 / Server 2008 R2 使用）",
+        "CIFS 3.0 (Used by Windows 8 / Server 2012 and newer)": "CIFS 3.0（由 Windows 8 / Server 2012 及更新版本使用）",
+        "Ensure": "请确保",
+        "are installed on your hosts.": "已安装在您的主机上。",
+        "Comma separated list of options": "以逗号分隔的选项列表",
+        "Just now": "刚刚",
+        "'Use NFS volume'": "'使用 NFS 卷'",
+        "'Use CIFS volume'": "'使用 CIFS 卷'",
+        "'Enable access control'": "'启用访问控制'",
+        "Events table": "事件表格",        
+        // ====================
+        // Docker 功能配置
+        // ====================
+        "'Docker features configuration'": "'Docker 功能配置'",
+        "to use this functionality, and the root of the host must be\n                bind-mounted to": " 以使用此功能，并且主机的根目录必须\n                绑定挂载到 ",
+        "'Enable host management features'": "'启用主机管理功能'",
+        "'Enable volume management for non-administrators'": "'为非管理员启用卷管理'",
+        "'Enable Change Window'": "'启用变更窗口'",
+        "'Hide bind mounts for non-administrators'": "'对非管理员隐藏绑定挂载'",
+        "'Hide privileged mode for non-administrators'": "'对非管理员隐藏特权模式'",
+        "'Hide the use of host PID 1 for non-administrators'": "'对非管理员隐藏主机 PID 1 的使用'",
+        "'Hide the use of Stacks for non-administrators'": "'对非管理员隐藏堆栈的使用'",
+        "'Hide device mappings for non-administrators'": "'对非管理员隐藏设备映射'",
+        "'Hide container capabilities for non-administrators'": "'对非管理员隐藏容器能力'",
+        "'Hide sysctl settings for non-administrators'": "'对非管理员隐藏 sysctl 设置'",
+        "'Show GPU in the UI'": "'在 UI 中显示 GPU'",
+        "'Show image up to date indicators for Stacks, Services and Containers'": "'为堆栈、服务和容器显示镜像最新状态指示器'",
+
+        // ====================
+        // 功能说明
+        // ====================
+        "Enable host management features: host system browsing and advanced host details.": "启用主机管理功能：主机系统浏览和高级主机详细信息。",
+        "This allows managing of GPUs for container/stack hardware acceleration via the Portainer UI.": "这允许通过 Portainer UI 管理 GPU 以进行容器/堆栈硬件加速。",
+        "Prevent users from accessing the host filesystem through the host PID namespace.": "防止用户通过主机 PID 命名空间访问主机文件系统。",
+        "When enabled, regular users will not be able to use privileged mode when creating containers.": "启用后，普通用户在创建容器时将无法使用特权模式。",
+        "When enabled, regular users will not be able to use bind mounts when creating containers.": "启用后，普通用户在创建容器时将无法使用绑定挂载。",
+        "Specify a time-frame during which GitOps updates can occur in this environment.": "指定在此环境中可以进行 GitOps 更新的时间段。",
+        "When enabled, regular users will be able to use Portainer volume management features.": "启用后，普通用户将能够使用 Portainer 卷管理功能。",
+        "Note: The recreate/duplicate/edit feature is currently hidden (for non-admin users) by one or more security settings.": "注意：重建/复制/编辑功能当前被一个或多个安全设置隐藏（针对非管理员用户）。",
+
+        // ====================
+        // GPU 设置
+        // ====================
+        "GPUs": "GPU",
+        "Add GPU": "添加 GPU",
+        "You may optionally set up the GPUs that will be selectable against containers, although 'All GPUs' will always be available.": "您可以选择性地设置可供容器选择的 GPU，尽管“所有 GPU”将始终可用。",
+        "GPU Name": "GPU 名称",
+        "Index or UUID": "索引 或 UUID",        
+        // ====================
+        // 注册表管理
+        // ====================
+        "Registries table": "注册表表格",
+        "'Create registry'": "'创建注册表'",
+        "dockerhub-prod-us": "dockerhub-prod-us",
+        "'Authentication'": "'身份验证'",
+        "{\"Name\":\"This field is required.\"}": "{\"Name\":\"该字段为必填项。\"}",
+        "loading": "加载中",
+        "Testing connection...": "测试连接中...",
+
+        // ====================
+        // 注册表类型与配置说明
+        // ====================
+        "URL of an Amazon Elastic Container Registry, which contains an account id and region.": "Amazon Elastic Container Registry 的 URL，其中包含账户 ID 和区域。",
+        "Enable this option if you need to specify credentials to connect to a private registry.": "如果您需要指定凭据以连接到私有注册表，请启用此选项。",
+        "'Use organization registry'": "'使用组织注册表'",
+        "Any Portainer user that has access to this registry will be able to use the Registry Manager features against the content of any Feed in the ProGet registry that the ProGet\n      user has access to.": "任何有权访问此注册表的 Portainer 用户都将能够针对 ProGet 用户有权访问的 ProGet 注册表中任何 Feed 的内容使用注册表管理器功能。",
+        "proget-registry": "proget-registry",
+        "The URL of the ProGet registry including the Feed name": "ProGet 注册表的 URL，包括 Feed 名称",
+        "The base URL of the ProGet registry": "ProGet 注册表的基础 URL",
+        "my-azure-registry": "my-azure-registry",
+        "myproject.azurecr.io": "myproject.azurecr.io",
+        "URL of an Azure Container Registry. Any protocol will be stripped.": "Azure Container Registry 的 URL。任何协议都将被移除。",
+        "Use default configuration": "使用默认配置",
+        "Instance URL": "实例 URL",
+        "URL of Gitlab instance.": "Gitlab 实例的 URL。",
+        "URL of Gitlab registry instance.": "Gitlab 注册表实例的 URL。",
+        ". You can find more\n      information about how to connect to an insecure registry": "。您可以找到有关如何连接到不安全注册表的更多信息\n      ",
+        "10.0.0.10:5000 or myregistry.domain.tld": "10.0.0.10:5000 或 myregistry.domain.tld",
+        "URL or IP address of a Docker registry. Any protocol and trailing slash will be stripped if present.": "Docker 注册表的 URL 或 IP 地址。如果存在任何协议和尾部斜杠，将被移除。",
+        "Enable this option if you need to specify credentials to connect to this registry.": "如果您需要指定凭据以连接到此注册表，请启用此选项。",
+        "Organization name": "组织名称",
+        // ====================
+        // 用户管理验证与提示
+        // ====================
+        "Username is already taken": "用户名已被占用",
+        "to create some.": "以创建一些。",
+        "Note: non-administrator users who aren't in a team don't have access to any environments by default. Head over to the": "注意：不属于任何团队的非管理员用户默认无权访问任何环境。请前往",
+        "Environments view": "环境视图",
+        "to manage their accesses.": "管理其访问权限。",
+        "Create user": "创建用户",
+        "{\"confirmPassword\":\"Passwords must match\",\"username\":\"Username is already taken\"}": "{\"confirmPassword\":\"密码必须匹配\",\"username\":\"用户名已被占用\"}",
+        "Password is required": "密码为必填项",
+        "{\"password\":\"Password is required\",\"username\":\"Username is required\"}": "{\"password\":\"密码为必填项\",\"username\":\"用户名为必填项\"}",
+        "Administrators have access to Portainer settings management as well as full control over all defined environments and their resources.'": "管理员有权管理 Portainer 设置，并对所有定义的环境及其资源拥有完全控制权。'",
+
+        // ====================
+        // 用户详情与操作
+        // ====================
+        "'User details'": "'用户详情'",
+        "User details": "用户详情",
+        "Delete this user": "删除此用户",
+        "Update password": "更新密码",
+        "'Administrator'": "'管理员'",
+        "Change user password": "更改用户密码",
+        "The password must be at least": "密码长度至少为 ",
+        "characters long.": "个字符。",
+        "{\"confirmPassword\":\"Passwords must match\"}": "{\"confirmPassword\":\"密码必须匹配\"}",
+        "The password must be at least 12 characters long. (1/12)": "密码长度至少为 12 个字符。(1/12)",
+        "{\"password\":\"The password must be at least 12 characters long. (1/12)\",\"confirmPassword\":\"Passwords must match\"}": "{\"password\":\"密码长度至少为 12 个字符。(1/12)\",\"confirmPassword\":\"密码必须匹配\"}",
+        "{\"password\":\"The password must be at least 12 characters long. (1/12)\"}": "{\"password\":\"密码长度至少为 12 个字符。(1/12)\"}",
+        "User successfully created": "用户创建成功",
+        "Do you want to remove the selected users? They will not be able to login into Portainer anymore.": "您想要移除选中的用户吗？他们将无法再登录 Portainer。",
+        "Users successfully removed": "用户移除成功",
+        "Administrators have access to Portainer settings management as well as full control over all defined environments and their resources.": "管理员有权管理 Portainer 设置，并对所有定义的环境及其资源拥有完全控制权。",
+        // ====================
+        // 用户操作反馈
+        // ====================
+        "Password successfully updated": "密码更新成功",
+        "Creating user...": "正在创建用户...",
+        "Do you want to remove this user? This user will not be able to login into Portainer anymore.": "您想要移除此用户吗？该用户将无法再登录 Portainer。",
+        "User successfully deleted": "用户删除成功",
+        "{\"password\":\"Password is required\",\"username\":\"Username is already taken\"}": "{\"password\":\"密码为必填项\",\"username\":\"用户名已被占用\"}",
+        
   };
   /**
    * 正则规则
@@ -1263,5 +1417,23 @@
       [/^(\d+\.?\d*)min/, "$1分"],
 
       [/^e.g. (.+\.?.*)/, "例如 $1"],
+      [/(\d+) min ago/, "$1 分钟前"],
+      [/^Container (.+) paused$/, "容器 $1 已暂停"],
+      [/^Container (.+) unpaused$/, "容器 $1 已恢复"],
+      [/^Container (.+) killed$/, "容器 $1 已杀死"],
+      [/^Container (.+) stopped$/, "容器 $1 已停止"],
+      [/^Container (.+) started$/, "容器 $1 已启动"],
+      [/^Container (.+) restarted$/, "容器 $1 已重启"],
+      [/^Container (.+) renamed$/, "容器 $1 已重命名"],
+      [/^Container (.+) created$/, "容器 $1 已创建"],
+      [/^Container (.+) deleted$/, "容器 $1 已删除"],
+      [/^Container (.+) attached$/, "容器 $1 已连接"],
+      [/^Container (.+) resized$/, "容器 $1 已调整大小"],
+
+      // ====================
+      // 容器网络事件 (正则匹配)
+      // ====================
+      [/^Container connected to (.+) network$/, "容器已连接到 $1 网络"],
+      [/^Container disconnected from (.+) network$/, "容器已断开与 $1 网络的连接"],
       
   ];
