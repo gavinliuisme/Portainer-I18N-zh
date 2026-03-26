@@ -723,6 +723,17 @@
       "restarting": "重启中",
       "removing": "移除中",
       "Unhealthy ( unhealthy )": "不健康",
+        "Resuming...": "恢复中...",
+        "Pausing...": "暂停中...",
+        "Restarting...": "重启中...",
+        "Killing...": "强制停止中...",
+        "Starting...": "启动中...",
+        "Stopping...": "停止中...",
+        "Removing...": "删除中...",
+        "Recreation in progress...": "重建中...",
+        "paused": "已暂停",
+        "You are about to remove a container.": "您即将移除一个容器。",
+        "You are about to remove a running container.": "您即将移除一个正在运行的容器。",
       
       // ====================
       // 镜像管理
